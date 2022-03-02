@@ -1,0 +1,13 @@
+{
+	"musicplayer.demosong1": {
+		"sounds": [
+			{"name":"musicplayer/demosong1","stream":true}
+		]
+	},
+	"musicplayer.demosong2": {
+		"sounds": [
+			{"name":"musicplayer/demosong2","stream":true}
+		]
+	}
+}
+	
