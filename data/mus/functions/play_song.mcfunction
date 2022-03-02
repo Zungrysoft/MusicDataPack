@@ -7,8 +7,8 @@ stopsound @s record
 # ==================================================================
 execute if score @s song_id matches 1 run playsound musicplayer.demosong1 record @s ~ ~ ~ 1 1 1
 execute if score @s song_id matches 1 run scoreboard players set @s song_duration 200
-execute if score @s song_id matches 1 run say DEMO SONG 1
+execute if score @s song_id matches 1 run say PLAYING SONG WITH ID 1
 
 execute if score @s song_id matches 2 run playsound musicplayer.demosong2 record @s ~ ~ ~ 1 1 1
 execute if score @s song_id matches 2 run scoreboard players set @s song_duration 200
-execute if score @s song_id matches 2 run say DEMO SONG 2
+execute if score @s song_id matches 2 run say PLAYING SONG WITH ID 2
